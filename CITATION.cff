@@ -3,6 +3,10 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Maria"
     given-names: "Iuliano"
+  - family-names: "Andrew"
+    given-names: "Paquette"
+  - family-names: "Bea"
+    given-names: "Carbone"
     orcid: "https://orcid.org/0000-0003-4072-3724"
 title: "DendriteAnalysis16bit"
 version: v.0.0.1
