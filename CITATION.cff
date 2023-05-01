@@ -1,10 +1,10 @@
-cff-version: 1.1.0
+cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Maria"
     given-names: "Iuliano"
-    orcid: https://orcid.org/0000-0003-4072-3724
-title: miuliano1029/DendriteAnalysis16bit: Dendrite Analysis
+    orcid: "https://orcid.org/0000-0003-4072-3724"
+title: "DendriteAnalysis16bit"
 version: v.0.0.1
 doi: 10.5281/zenodo.7883923
 date-released: 2023-05-01
