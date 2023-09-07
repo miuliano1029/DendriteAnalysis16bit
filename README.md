@@ -25,7 +25,11 @@ You then will be prompted to enter parameters for your analysis:
 * Pixel scale (um/pixel), based on the starting image (check image properties)
 * Max and min puncta size (pixels) This allows you to limit puncta identification for selection and analysis within a particular size range
  
-The macro will then run automatically, opening and processing files. The most common error is due to the starting image folder, in which the images are not organized by condition. Another possible error may be due to not having the "Results" window open prior to running the macro.
+The macro will then run automatically, opening and processing files. 
+
+Common Errors:
+* "Macro Error: Undefined variable in line 59" This is due to images in the starting folder not being nested by condition.
+* "No window with the title Results found" Self explanatory, you will need to open the "results" window and re-try.
 
 Once complete, for data analysis you will open the “summary.xls” sheet located in the results folder. Data will include:
 * __Puncta Densities:__ Green, Red, Green coloc with Red, and Red coloc with Green (Identified as Density_G(#/um), Density_R(#/um), Density_GR(#/um), & Density_RG(#/um)) NOTE: Substitute in the manually measured lengths and re-calculate the densities. Counts should be (#puncta/length)*10 to get puncta per 10um as a measurement.
